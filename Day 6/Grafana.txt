@@ -1,0 +1,12 @@
+https://grafana.com/dashboards/405
+https://grafana.com/dashboards/1860
+https://grafana.com/dashboards/5174
+https://grafana.com/dashboards/9096
+
+
+
+rate(node_cpu_seconds_total{mode="system"}[1m])
+
+rate(node_network_receive_bytes_total[1m])
+
+node_load15
